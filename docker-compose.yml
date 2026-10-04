@@ -1,0 +1,7 @@
+services:
+  llm:
+    build: .
+    volumes:
+      - .:/app
+    gpus: all
+    command: sleep infinity
