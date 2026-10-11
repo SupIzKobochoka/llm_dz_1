@@ -1,0 +1,49 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+You are attempting to use Flash Attention 2 without specifying a torch dtype. This might lead to unexpected behaviour
+{"step": 10, "elapsed_seconds": 9.803905165999822, "step_seconds": 0.8128552319994924, "target_tokens": 5417, "warmup": true}
+{'loss': 11.2276, 'grad_norm': 5.90625, 'learning_rate': 1.3499999999999998e-05, 'epoch': 0.002614720878546215}
+{"step": 20, "elapsed_seconds": 17.930649986999924, "step_seconds": 1.0162665049992938, "target_tokens": 5687, "warmup": false}
+{'loss': 11.1715, 'grad_norm': 5.78125, 'learning_rate': 2.8499999999999998e-05, 'epoch': 0.00522944175709243}
+{"step": 30, "elapsed_seconds": 25.46821722599998, "step_seconds": 0.7475443570001516, "target_tokens": 5617, "warmup": false}
+{'loss': 10.9336, 'grad_norm': 6.0, 'learning_rate': 4.3499999999999993e-05, 'epoch': 0.007844162635638646}
+{"step": 40, "elapsed_seconds": 32.84318351600086, "step_seconds": 0.678802338999958, "target_tokens": 5080, "warmup": false}
+{'loss': 10.0782, 'grad_norm': 3.234375, 'learning_rate': 5.85e-05, 'epoch': 0.01045888351418486}
+{"step": 50, "elapsed_seconds": 39.69268818199998, "step_seconds": 0.5789802489998692, "target_tokens": 5460, "warmup": false}
+{'loss': 9.0802, 'grad_norm': 1.6640625, 'learning_rate': 7.35e-05, 'epoch': 0.013073604392731076}
+{"step": 60, "elapsed_seconds": 47.8713885039997, "step_seconds": 0.9270887689999654, "target_tokens": 6316, "warmup": false}
+{'loss': 8.5919, 'grad_norm': 1.0546875, 'learning_rate': 8.849999999999998e-05, 'epoch': 0.015688325271277292}
+{"step": 70, "elapsed_seconds": 55.13347426800101, "step_seconds": 0.7526429179997649, "target_tokens": 6375, "warmup": false}
+{'loss': 8.4673, 'grad_norm': 1.34375, 'learning_rate': 0.00010349999999999998, 'epoch': 0.018303046149823508}
+{"step": 80, "elapsed_seconds": 62.34814412800006, "step_seconds": 0.6427345350002724, "target_tokens": 5204, "warmup": false}
+{'loss': 8.4492, 'grad_norm': 1.046875, 'learning_rate': 0.0001185, 'epoch': 0.02091776702836972}
+{"step": 90, "elapsed_seconds": 70.0320420980006, "step_seconds": 0.7272977129996434, "target_tokens": 5889, "warmup": false}
+{'loss': 8.3721, 'grad_norm': 1.0703125, 'learning_rate': 0.0001335, 'epoch': 0.023532487906915936}
+{"step": 100, "elapsed_seconds": 77.25824123500024, "step_seconds": 0.8011258559999987, "target_tokens": 5564, "warmup": false}
+{'loss': 8.2865, 'grad_norm': 1.171875, 'learning_rate': 0.00014849999999999998, 'epoch': 0.026147208785462152}
+{"step": 110, "elapsed_seconds": 84.76553822000096, "step_seconds": 0.8713649090004765, "target_tokens": 6100, "warmup": false}
+{'loss': 8.301, 'grad_norm': 1.0234375, 'learning_rate': 0.0001635, 'epoch': 0.028761929664008368}
+{'train_runtime': 90.6383, 'train_loss': 9.293159321842031, 'epoch': 0.03059223427899072}
+{
+  "train_seconds": 90.63755203100118,
+  "optimizer_steps": 117,
+  "target_tokens": 666287,
+  "tokens_per_second_including_warmup": 7351.114246467147,
+  "warmup_steps": 10,
+  "measured_steps": 107,
+  "measured_seconds": 80.83364686500136,
+  "tokens_per_second": 7531.554292196535,
+  "seconds_per_optimizer_step": 0.7554546435981435,
+  "peak_allocated_gib": 39.29675769805908,
+  "peak_reserved_gib": 41.599609375,
+  "validation_loss": 8.099918754951025,
+  "validation_target_tokens": 50694,
+  "configuration": {
+    "attention_implementation": "flash_attention_2",
+    "train_seconds_requested": 90.0,
+    "per_device_train_batch_size": 32,
+    "gradient_accumulation_steps": 2,
+    "gradient_checkpointing": false,
+    "packing": false,
+    "padding_free": false
+  }
+}

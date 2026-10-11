@@ -1,0 +1,35 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+You are attempting to use Flash Attention 2 without specifying a torch dtype. This might lead to unexpected behaviour
+{"step": 10, "elapsed_seconds": 20.50448220599901, "step_seconds": 1.9358552649991907, "target_tokens": 31521, "warmup": true}
+{'loss': 11.2191, 'grad_norm': 2.59375, 'learning_rate': 1.3499999999999998e-05, 'epoch': 0.014521691777092031}
+{"step": 20, "elapsed_seconds": 40.37359394399937, "step_seconds": 1.9669592079990252, "target_tokens": 31779, "warmup": false}
+{'loss': 11.0895, 'grad_norm': 2.8125, 'learning_rate': 2.8499999999999998e-05, 'epoch': 0.029043383554184062}
+{"step": 30, "elapsed_seconds": 60.27339264500006, "step_seconds": 2.108350533999328, "target_tokens": 32091, "warmup": false}
+{'loss': 10.4476, 'grad_norm': 3.21875, 'learning_rate': 4.3499999999999993e-05, 'epoch': 0.04356507533127609}
+{"step": 40, "elapsed_seconds": 80.53943607399924, "step_seconds": 2.043794152999908, "target_tokens": 32008, "warmup": false}
+{'loss': 9.4227, 'grad_norm': 1.1953125, 'learning_rate': 5.85e-05, 'epoch': 0.058086767108368124}
+{'train_runtime': 90.8754, 'train_loss': 10.35508821275499, 'epoch': 0.06534761299691413}
+{
+  "train_seconds": 90.87470272199971,
+  "optimizer_steps": 45,
+  "target_tokens": 1440567,
+  "tokens_per_second_including_warmup": 15852.233425257253,
+  "warmup_steps": 10,
+  "measured_steps": 35,
+  "measured_seconds": 70.3702205160007,
+  "tokens_per_second": 15929.763922583028,
+  "seconds_per_optimizer_step": 2.0105777290285913,
+  "peak_allocated_gib": 9.735723495483398,
+  "peak_reserved_gib": 12.591796875,
+  "validation_loss": 8.580746044899842,
+  "validation_target_tokens": 50694,
+  "configuration": {
+    "attention_implementation": "flash_attention_2",
+    "train_seconds_requested": 90.0,
+    "per_device_train_batch_size": 8,
+    "gradient_accumulation_steps": 8,
+    "gradient_checkpointing": true,
+    "packing": true,
+    "padding_free": false
+  }
+}

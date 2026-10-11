@@ -1,0 +1,60 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+You are attempting to use Flash Attention 2 without specifying a torch dtype. This might lead to unexpected behaviour
+
+Packing train dataset:   0%|          | 0/244768 [00:00<?, ? examples/s]
+Packing train dataset:   4%|▍         | 10000/244768 [00:00<00:02, 96126.00 examples/s]
+Packing train dataset:   9%|▉         | 22000/244768 [00:00<00:02, 100115.95 examples/s]
+Packing train dataset:  14%|█▍        | 34000/244768 [00:00<00:02, 101994.36 examples/s]
+Packing train dataset:  19%|█▉        | 46000/244768 [00:00<00:01, 103298.68 examples/s]
+Packing train dataset:  24%|██▎       | 58000/244768 [00:00<00:01, 103976.71 examples/s]
+Packing train dataset:  29%|██▊       | 70000/244768 [00:00<00:01, 104334.41 examples/s]
+Packing train dataset:  34%|███▎      | 82000/244768 [00:00<00:01, 104187.81 examples/s]
+Packing train dataset:  38%|███▊      | 94000/244768 [00:00<00:01, 104437.68 examples/s]
+Packing train dataset:  43%|████▎     | 106000/244768 [00:01<00:01, 104317.55 examples/s]
+Packing train dataset:  48%|████▊     | 118000/244768 [00:01<00:01, 104298.02 examples/s]
+Packing train dataset:  53%|█████▎    | 130000/244768 [00:01<00:01, 104409.91 examples/s]
+Packing train dataset:  58%|█████▊    | 142000/244768 [00:01<00:00, 104351.65 examples/s]
+Packing train dataset:  63%|██████▎   | 154000/244768 [00:01<00:00, 104581.72 examples/s]
+Packing train dataset:  68%|██████▊   | 166000/244768 [00:01<00:00, 104805.36 examples/s]
+Packing train dataset:  73%|███████▎  | 178000/244768 [00:01<00:00, 104750.32 examples/s]
+Packing train dataset:  78%|███████▊  | 190000/244768 [00:01<00:00, 104688.44 examples/s]
+Packing train dataset:  83%|████████▎ | 202000/244768 [00:01<00:00, 104760.43 examples/s]
+Packing train dataset:  87%|████████▋ | 214000/244768 [00:02<00:00, 104381.30 examples/s]
+Packing train dataset:  92%|█████████▏| 226000/244768 [00:02<00:00, 104245.53 examples/s]
+Packing train dataset:  97%|█████████▋| 238000/244768 [00:02<00:00, 104385.70 examples/s]
+Packing train dataset: 100%|██████████| 244768/244768 [00:02<00:00, 101572.87 examples/s]
+{"step": 10, "elapsed_seconds": 16.806349270998908, "step_seconds": 1.5603791779994935, "target_tokens": 31521, "warmup": true}
+{'loss': 11.2191, 'grad_norm': 2.59375, 'learning_rate': 1.3499999999999998e-05, 'epoch': 0.014521691777092031}
+{"step": 20, "elapsed_seconds": 32.71974292399864, "step_seconds": 1.5843240189988137, "target_tokens": 31779, "warmup": false}
+{'loss': 11.0896, 'grad_norm': 2.8125, 'learning_rate': 2.8499999999999998e-05, 'epoch': 0.029043383554184062}
+{"step": 30, "elapsed_seconds": 48.71056183200017, "step_seconds": 1.6053750980008772, "target_tokens": 32091, "warmup": false}
+{'loss': 10.4475, 'grad_norm': 3.21875, 'learning_rate': 4.3499999999999993e-05, 'epoch': 0.04356507533127609}
+{"step": 40, "elapsed_seconds": 64.82734051999978, "step_seconds": 1.6187770030010142, "target_tokens": 32008, "warmup": false}
+{'loss': 9.4224, 'grad_norm': 1.1953125, 'learning_rate': 5.85e-05, 'epoch': 0.058086767108368124}
+{"step": 50, "elapsed_seconds": 81.00613504600005, "step_seconds": 1.6287548910004261, "target_tokens": 32081, "warmup": false}
+{'loss': 8.6921, 'grad_norm': 0.953125, 'learning_rate': 7.35e-05, 'epoch': 0.07260845888546015}
+{'train_runtime': 90.956, 'train_loss': 9.983756474086217, 'epoch': 0.08132147395171538}
+{
+  "train_seconds": 90.95531724799912,
+  "optimizer_steps": 56,
+  "target_tokens": 1791322,
+  "tokens_per_second_including_warmup": 19694.527535050805,
+  "warmup_steps": 10,
+  "measured_steps": 46,
+  "measured_seconds": 74.14896797700021,
+  "tokens_per_second": 19848.36795646985,
+  "seconds_per_optimizer_step": 1.6119340864565264,
+  "peak_allocated_gib": 15.462589263916016,
+  "peak_reserved_gib": 15.896484375,
+  "validation_loss": 8.252951436321773,
+  "validation_target_tokens": 50694,
+  "configuration": {
+    "attention_implementation": "flash_attention_2",
+    "train_seconds_requested": 90.0,
+    "per_device_train_batch_size": 8,
+    "gradient_accumulation_steps": 8,
+    "gradient_checkpointing": false,
+    "packing": true,
+    "padding_free": false
+  }
+}

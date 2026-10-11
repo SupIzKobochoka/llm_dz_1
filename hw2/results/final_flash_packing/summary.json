@@ -1,0 +1,24 @@
+{
+  "train_seconds": 300.01022035700043,
+  "optimizer_steps": 174,
+  "target_tokens": 5563182,
+  "tokens_per_second_including_warmup": 18543.30826923173,
+  "warmup_steps": 10,
+  "measured_steps": 164,
+  "measured_seconds": 283.1321524569994,
+  "tokens_per_second": 18519.959511826793,
+  "seconds_per_optimizer_step": 1.7264155637621914,
+  "peak_allocated_gib": 15.465647220611572,
+  "peak_reserved_gib": 15.896484375,
+  "validation_loss": 7.109309734195564,
+  "validation_target_tokens": 50694,
+  "configuration": {
+    "attention_implementation": "flash_attention_2",
+    "train_seconds_requested": 300.0,
+    "per_device_train_batch_size": 8,
+    "gradient_accumulation_steps": 8,
+    "gradient_checkpointing": false,
+    "packing": true,
+    "padding_free": false
+  }
+}
