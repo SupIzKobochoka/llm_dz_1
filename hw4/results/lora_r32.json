@@ -1,0 +1,16 @@
+{
+  "accuracy": 0.874,
+  "macro_f1": 0.8178,
+  "experiment": "lora_r32",
+  "trainable_params": 2162688,
+  "train_seconds": 418.6,
+  "peak_gpu_gb": 1.82,
+  "r": 32,
+  "alpha": 32,
+  "dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "learning_rate": 0.0002
+}

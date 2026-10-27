@@ -1,0 +1,8 @@
+{
+  "accuracy": 0.209,
+  "macro_f1": 0.1378,
+  "experiment": "baseline",
+  "trainable_params": 494032768,
+  "train_seconds": 0,
+  "peak_gpu_gb": 0
+}

@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.931,
+  "macro_f1": 0.8878,
+  "experiment": "lora_all_linear",
+  "trainable_params": 8798208,
+  "train_seconds": 644.7,
+  "peak_gpu_gb": 2.09,
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "target_modules": "all-linear",
+  "learning_rate": 0.0002
+}

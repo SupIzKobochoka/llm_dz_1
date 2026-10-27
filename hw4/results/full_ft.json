@@ -1,0 +1,9 @@
+{
+  "accuracy": 0.8935,
+  "macro_f1": 0.845,
+  "experiment": "full_ft",
+  "trainable_params": 494032768,
+  "train_seconds": 486.4,
+  "peak_gpu_gb": 4.54,
+  "learning_rate": 2e-05
+}
