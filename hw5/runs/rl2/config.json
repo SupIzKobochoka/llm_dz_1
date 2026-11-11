@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen3.5-2B",
+  "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "algorithm": "GRPO",
+  "seed": 42,
+  "steps": 60,
+  "lr": 1e-05,
+  "reward": "shaped",
+  "lora_rank": 8,
+  "num_generations": 2,
+  "max_completion_length": 192
+}

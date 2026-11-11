@@ -1,0 +1,19 @@
+{
+  "dataset": "Team-ACE/ToolACE",
+  "dataset_rows": 11300,
+  "seed": 42,
+  "max_dialogs": 2500,
+  "train_dialogs": 2109,
+  "val_dialogs": 235,
+  "train_samples": 2280,
+  "val_samples": 249,
+  "no_tool_samples": 463,
+  "prompt_tokens_median": 689,
+  "prompt_tokens_max": 1753,
+  "tools_median": 3,
+  "skipped": {
+    "unparseable_call": 59,
+    "no_schema": 156,
+    "too_long": 7
+  }
+}
